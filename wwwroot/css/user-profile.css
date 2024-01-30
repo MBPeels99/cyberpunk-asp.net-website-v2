@@ -1,0 +1,85 @@
+﻿body{
+    background-color: yellow;
+}
+
+.user-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-details, .upcoming-bookings, .past-trips {
+    margin-bottom: 40px;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-info p, .booking p, .trip p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.review-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .review-btn:hover {
+        background-color: #0056b3;
+    }
+
+.upcoming-bookings,
+.past-trips {
+    margin-bottom: 20px;
+}
+
+.booking-card,
+.trip-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.booking-header,
+.trip-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.booking-destination,
+.trip-destination {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.booking-status,
+.trip-status {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.booking-details,
+.trip-details p {
+    margin: 0;
+    line-height: 1.6;
+}

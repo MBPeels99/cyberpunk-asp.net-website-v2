@@ -1,0 +1,80 @@
+﻿@model NityCityWeb.Models.User
+
+@{
+    ViewData["Title"] = "User Profile";
+    var upcomingBookings = ViewBag.UpcomingBookings as List<NityCityWeb.Models.Booking>;
+    var pastBookings = ViewBag.PastBookings as List<NityCityWeb.Models.Booking>;
+}
+
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="~/css/cyberpunk-css-main/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/user-profile.css" asp-append-version="true" />
+
+<div class="user-profile-container">
+    <div class="user-details">
+        <h2 class="section-heading">Your Profile</h2>
+        <div class="user-info">
+            <h3>@Model.FullName</h3>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Phone:</strong> @Model.PhoneNumber</p>
+            <p><strong>Country:</strong> @Model.Country</p>
+            <p><strong>Date of Birth:</strong> @Model.DateOfBirth.ToString("d")</p>
+        </div>
+    </div>
+
+    <div class="upcoming-bookings">
+        <h2 class="section-heading">Upcoming Bookings</h2>
+        @if (upcomingBookings.Any())
+        {
+            foreach (var booking in upcomingBookings)
+            {
+                <div class="booking-card">
+                    <div class="booking-header">
+                        <h3 class="booking-destination">@booking.District.DistrictName</h3>
+                        <span class="booking-status">@booking.Status.ToString()</span>
+                    </div>
+                    <div class="booking-details">
+                        <p><strong>Start Date:</strong> @booking.TripStartDate.ToString("d")</p>
+                        <p><strong>End Date:</strong> @booking.TripEndDate.ToString("d")</p>
+                        <p><strong>Travelers:</strong> @booking.NumberOfTravelers</p>
+                        <p><strong>Total Price:</strong> $@booking.TotalPrice.ToString("N2")</p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No upcoming bookings.</p>
+        }
+    </div>
+
+    <div class="past-trips">
+        <h2 class="section-heading">Past Trips</h2>
+        @if (pastBookings.Any())
+        {
+            foreach (var booking in pastBookings)
+            {
+                <div class="trip-card">
+                    <div class="trip-header">
+                        <h3 class="trip-destination">@booking.District.DistrictName</h3>
+                        <span class="trip-status">@booking.Status.ToString()</span>
+                    </div>
+                    <div class="trip-details">
+                        <p><strong>Start Date:</strong> @booking.TripStartDate.ToString("d")</p>
+                        <p><strong>End Date:</strong> @booking.TripEndDate.ToString("d")</p>
+                        <p><strong>Travelers:</strong> @booking.NumberOfTravelers</p>
+                        <p><strong>Total Price:</strong> $@booking.TotalPrice.ToString("N2")</p>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No past trips.</p>
+        }
+    </div>
+</div>
+
+<!-- Add the necessary JavaScript files -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

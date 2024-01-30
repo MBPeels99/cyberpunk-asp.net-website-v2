@@ -1,0 +1,557 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NityCityWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NityCityWeb.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Ads_gifs\\3834df0dd879cbca534a719e9e5fe63f.gif",
+      "PackagePath": "staticwebassets\\Pictures\\Ads_gifs\\3834df0dd879cbca534a719e9e5fe63f.gif"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Ads_gifs\\Austin-Dragon-Liquid-Cool.gif",
+      "PackagePath": "staticwebassets\\Pictures\\Ads_gifs\\Austin-Dragon-Liquid-Cool.gif"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Ads_gifs\\DysthomeGroup.gif",
+      "PackagePath": "staticwebassets\\Pictures\\Ads_gifs\\DysthomeGroup.gif"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\CityCenter.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\CityCenter.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\City Center\\CityCenter_Image_Back.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\City Center\\CityCenter_Image_Back.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\City Center\\CityCenter_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\City Center\\CityCenter_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\City Center\\CityCenter_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\City Center\\CityCenter_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\City Center\\CityCenter_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\City Center\\CityCenter_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Heywood\\Heywood_Image_Back.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Heywood\\Heywood_Image_Back.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Heywood\\Heywood_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Heywood\\Heywood_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Heywood\\Heywood_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Heywood\\Heywood_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Heywood\\Heywood_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Heywood\\Heywood_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Pacifica\\Pacifica_Image_Back.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Pacifica\\Pacifica_Image_Back.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Pacifica\\Pacifica_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Pacifica\\Pacifica_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Pacifica\\Pacifica_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Pacifica\\Pacifica_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Pacifica\\Pacifica_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Pacifica\\Pacifica_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_Back.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_Back.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Santo Domingo\\SantoDomingo_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\The Badlands\\TheBadlands_Image_Back.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\The Badlands\\TheBadlands_Image_Back.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\The Badlands\\TheBadlands_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\The Badlands\\TheBadlands_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\The Badlands\\TheBadlands_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\The Badlands\\TheBadlands_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\The Badlands\\TheBadlands_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\The Badlands\\TheBadlands_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Watson\\Watson_Back_Image.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Watson\\Watson_Back_Image.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Watson\\Watson_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Watson\\Watson_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Watson\\Watson_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Watson\\Watson_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Watson\\Watson_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Watson\\Watson_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Westbrook\\Westbrook_Image_Back.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Westbrook\\Westbrook_Image_Back.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Westbrook\\Westbrook_Image_Map.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Westbrook\\Westbrook_Image_Map.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Westbrook\\Westbrook_Image_One.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Westbrook\\Westbrook_Image_One.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\District\\Westbrook\\Westbrook_Image_Two.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\District\\Westbrook\\Westbrook_Image_Two.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Figures\\Johnny Silverhand\\Johnny Silverhand.png",
+      "PackagePath": "staticwebassets\\Pictures\\Figures\\Johnny Silverhand\\Johnny Silverhand.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Heywood.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Heywood.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\NC_Logo_All.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\NC_Logo_All.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\NC_Logo_Black_BG.PNG",
+      "PackagePath": "staticwebassets\\Pictures\\NC_Logo_Black_BG.PNG"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Pacifica.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Pacifica.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\SantoDomingo.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\SantoDomingo.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Watson.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Watson.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\Westbrook.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\Westbrook.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\cyberpunk_hero.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\cyberpunk_hero.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\cyberpunk_night_city.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\cyberpunk_night_city.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\Pictures\\night_city.jpg",
+      "PackagePath": "staticwebassets\\Pictures\\night_city.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\.gitignore",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\.gitignore"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\README.md",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\README.md"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\cyberpunk.css",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\cyberpunk.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\cyber-grid.css",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\cyber-grid.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\helper.js",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\helper.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\main-lg.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\main-lg.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\main-sm.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\main-sm.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\screen01.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\screen01.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\screen02.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\screen02.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\screen03.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\screen03.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\screen04.png",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\screen04.png"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\tile1.jpg",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\tile1.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\tile2.jpg",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\tile2.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\tile3.jpg",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\tile3.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\img\\tile4.jpg",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\img\\tile4.jpg"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\index.html",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\index.html"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\jquery-3.6.1.min.js",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\jquery-3.6.1.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\demo\\style.css",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\demo\\style.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\fonts\\BlenderProBook.woff2",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\fonts\\BlenderProBook.woff2"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\fonts\\Cyberpunk.otf",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\fonts\\Cyberpunk.otf"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk-css-main\\fonts\\Oxanium.woff2",
+      "PackagePath": "staticwebassets\\css\\cyberpunk-css-main\\fonts\\Oxanium.woff2"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\cyberpunk.css",
+      "PackagePath": "staticwebassets\\css\\cyberpunk.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\district.css",
+      "PackagePath": "staticwebassets\\css\\district.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\user-profile.css",
+      "PackagePath": "staticwebassets\\css\\user-profile.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\css\\user.css",
+      "PackagePath": "staticwebassets\\css\\user.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\js\\_ValidationScriptsPartialSignUp.js",
+      "PackagePath": "staticwebassets\\js\\_ValidationScriptsPartialSignUp.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\js\\bookings.js",
+      "PackagePath": "staticwebassets\\js\\bookings.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\js\\district-details.js",
+      "PackagePath": "staticwebassets\\js\\district-details.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\js\\districts.js",
+      "PackagePath": "staticwebassets\\js\\districts.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\CodingProjects\\PortfolioProjects\\NityCityWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NityCityWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NityCityWeb.props",
+      "PackagePath": "build\\NityCityWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NityCityWeb.props",
+      "PackagePath": "buildMultiTargeting\\NityCityWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NityCityWeb.props",
+      "PackagePath": "buildTransitive\\NityCityWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

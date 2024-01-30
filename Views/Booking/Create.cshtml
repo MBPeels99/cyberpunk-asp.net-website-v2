@@ -1,0 +1,50 @@
+﻿@model NityCityWeb.Models.Booking
+
+@{
+    ViewData["Title"] = "Create Booking";
+}
+
+<h2>Create Booking</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <!-- District Selection -->
+    <div class="form-group">
+        <label asp-for="DistrictId" class="control-label">District</label>
+        <select asp-for="DistrictId" asp-items="@(new SelectList(ViewBag.Districts, "DistrictId", "DistrictName"))" class="form-control"></select>
+        <span asp-validation-for="DistrictId" class="text-danger"></span>
+    </div>
+
+    <!-- Trip Start Date -->
+    <div class="form-group">
+        <label asp-for="TripStartDate" class="control-label">Trip Start Date</label>
+        <input asp-for="TripStartDate" type="date" class="form-control" />
+        <span asp-validation-for="TripStartDate" class="text-danger"></span>
+    </div>
+
+    <!-- Trip End Date -->
+    <div class="form-group">
+        <label asp-for="TripEndDate" class="control-label">Trip End Date</label>
+        <input asp-for="TripEndDate" type="date" class="form-control" />
+        <span asp-validation-for="TripEndDate" class="text-danger"></span>
+    </div>
+
+    <!-- Number of Travelers -->
+    <div class="form-group">
+        <label asp-for="NumberOfTravelers" class="control-label">Number of Travelers</label>
+        <input asp-for="NumberOfTravelers" class="form-control" />
+        <span asp-validation-for="NumberOfTravelers" class="text-danger"></span>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,57 @@
+﻿@model NityCityWeb.Models.District
+
+@{
+    ViewData["Title"] = "District Details";
+}
+<!-- CSS Stylesheets-->
+<link rel="stylesheet" href="~/css/cyberpunk-css-main/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/district.css" asp-append-version="true">
+
+<div id="districtBackground" class="district-bg" data-district-name="@Model.DistrictName.Replace(" ", "")" style="background-image: url('@Url.Content("~/Pictures/District/" + Uri.EscapeDataString(Model.DistrictName) + "/" + Uri.EscapeDataString(Model.ImageOne))');">
+    <!-- Overlay -->
+    <div class="district-overlay"></div>
+    <!-- Content -->
+    <div class="hedistrictro-content text-center">
+        <h1 class="display-4 cyber-h fg-black oxanium-font">@Model.DistrictName</h1>
+    </div>
+</div>
+
+<!-- Left Arrow Button -->
+<a href="@Url.Action("Details", "District", new { id = ViewBag.PrevId })" class="arrow-button left-arrow">&#x25C0;</a>
+<div>
+    <h2 class="cyber-h oxanium-font">Details</h2>
+    <div>
+        <h4 class="cyber-h oxanium-font">District</h4>
+        <hr />
+        <dl class="row oxanium-font">
+            <dt class="col-sm-2">
+                Description
+            </dt>
+            <dd class="col-sm-10">
+                @Model.Description
+            </dd>
+            <dt class="col-sm-2">
+                Map
+            </dt>
+            <dd class="col-sm-10">
+                <div class="image-container">
+                    <img src="@($"/Pictures/District/{Uri.EscapeDataString(Model.DistrictName)}/{Uri.EscapeDataString(Model.ImageMap)}")" alt="Image of @Model.DistrictName" />
+                </div>
+            </dd>
+            <!-- Add more details as needed -->
+        </dl>
+    </div>
+    <div>
+        <br/>
+        <a href="@Url.Action("Index", "District")" class="cyber-button bg-red fg-white">Back to List</a>
+        <br />
+    </div>
+</div>
+
+<!-- Right Arrow Button -->
+<a href="@Url.Action("Details", "District", new { id = ViewBag.NextId })" class="arrow-button right-arrow">&#x25B6;</a>
+<script>
+    var imageUrls = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.ImageUrls));
+</script>
+<script src="~/js/district-details.js" asp-append-version="true"></script>
+

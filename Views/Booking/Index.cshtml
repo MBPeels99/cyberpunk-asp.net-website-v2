@@ -1,0 +1,39 @@
+﻿@model IEnumerable<NityCityWeb.Models.Booking>
+
+@{
+    ViewData["Title"] = "Bookings";
+}
+
+<h2>Bookings</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>District</th>
+            <th>Trip Start Date</th>
+            <th>Trip End Date</th>
+            <th>Travelers</th>
+            <th>Status</th>
+            <th>Total Price</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var booking in Model)
+        {
+            <tr>
+                <td>@booking.User.FullName</td>
+                <td>@booking.District.DistrictName</td>
+                <td>@booking.TripStartDate.ToShortDateString()</td>
+                <td>@booking.TripEndDate.ToShortDateString()</td>
+                <td>@booking.NumberOfTravelers</td>
+                <td>@booking.Status</td>
+                <td>@booking.TotalPrice</td>
+                <td>
+                    <!-- Add action links if needed (Edit, Details, Delete) -->
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<NityCityWeb.Models.District>
+
+@{
+    ViewData["Title"] = "Districts";
+}
+<!-- CSS Stylesheets-->
+<link rel="stylesheet" href="~/css/cyberpunk-css-main/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/district.css" asp-append-version="true">
+
+<h1 class="cyber-h fg-red oxanium-font">@ViewData["Title"]</h1>
+
+<div class="districts-container">
+    @foreach (var district in Model)
+    {
+        <h2 class="display-4 cyber-h fg-black oxanium-font">@Html.DisplayFor(modelItem => district.DistrictName)</h2>
+        <div class="district">
+                <div class="left-content">
+                    <div class="image-container">
+                        <img src="@($"/Pictures/District/{Uri.EscapeDataString(district.DistrictName)}/{Uri.EscapeDataString(district.ImageOne)}")" alt="Image of @district.DistrictName" />
+                    </div>
+                </div>
+                <div class="right-content">
+                    <p class="description-text collapsed-text">@Html.DisplayFor(modelItem => district.Description)</p>
+                <button class="read-more-button cyber-button-small bg-black fg-white" onclick="toggleDescription(this)">Read More</button>
+                </div>
+            
+        </div>
+        <br />
+        <a href="@Url.Action("Details", "District", new { id = district.DistrictId })" class="cyber-button-small bg-red fg-white">Learn More</a>
+    }
+</div>
+
+<script src="~/js/districts.js" asp-append-version="true"></script>

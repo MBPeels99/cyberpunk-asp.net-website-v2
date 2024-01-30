@@ -1,0 +1,38 @@
+﻿@model IEnumerable<NityCityWeb.Models.Booking>
+
+@{
+    ViewData["Title"] = "My Bookings";
+}
+
+<h2>My Bookings</h2>
+
+@if (!Model.Any())
+{
+    <p>You have no bookings.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>District</th>
+                <th>Trip Start Date</th>
+                <th>Trip End Date</th>
+                <th>Number of Travelers</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.District.DistrictName</td>
+                    <td>@booking.TripStartDate.ToString("d")</td>
+                    <td>@booking.TripEndDate.ToString("d")</td>
+                    <td>@booking.NumberOfTravelers</td>
+                    <!-- Add more data cells as needed -->
+                </tr>
+            }
+        </tbody>
+    </table>
+}

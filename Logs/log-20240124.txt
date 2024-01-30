@@ -1,0 +1,302 @@
+2024-01-24 22:55:06.535 +01:00 [INF] User profile is available. Using 'C:\Users\Gebruiker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 22:55:06.831 +01:00 [INF] Now listening on: https://localhost:7060
+2024-01-24 22:55:06.832 +01:00 [INF] Now listening on: http://localhost:5028
+2024-01-24 22:55:06.833 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 22:55:06.833 +01:00 [INF] Hosting environment: Development
+2024-01-24 22:55:06.833 +01:00 [INF] Content root path: E:\CodingProjects\PortfolioProjects\NityCityWeb
+2024-01-24 22:55:17.988 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 22:55:18.243 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 22:55:18.295 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 22:55:19.848 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 22:55:19.996 +01:00 [INF] Executed ViewResult - view Index executed in 150.1566ms.
+2024-01-24 22:55:20.002 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 1705.9006ms
+2024-01-24 22:55:20.008 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 22:55:20.021 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/NityCityWeb.styles.css?v=fnoLwTxoxUYnzuH2_iUGhuDr_XPQ9an4YWuxsxd6ezc - null null
+2024-01-24 22:55:20.023 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 22:55:20.027 +01:00 [INF] The file /NityCityWeb.styles.css was not modified
+2024-01-24 22:55:20.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 2053.853ms
+2024-01-24 22:55:20.035 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/NityCityWeb.styles.css?v=fnoLwTxoxUYnzuH2_iUGhuDr_XPQ9an4YWuxsxd6ezc - 304 null text/css 13.9368ms
+2024-01-24 22:55:20.040 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 22:55:20.042 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 18.9852ms
+2024-01-24 22:55:20.276 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 22:55:20.380 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 22:55:20.380 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 105.0084ms
+2024-01-24 22:55:20.521 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 480.6684ms
+2024-01-24 22:55:22.172 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Login - null null
+2024-01-24 22:55:22.202 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 22:55:22.204 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 22:55:22.211 +01:00 [INF] Executing ViewResult, running view Login.
+2024-01-24 22:55:22.295 +01:00 [INF] Executed ViewResult - view Login executed in 84.7712ms.
+2024-01-24 22:55:22.296 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Login (NityCityWeb) in 90.9325ms
+2024-01-24 22:55:22.297 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 22:55:22.298 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Login - 200 null text/html; charset=utf-8 126.9128ms
+2024-01-24 22:55:22.489 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 22:55:22.489 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 22:55:22.490 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 1.3534ms
+2024-01-24 22:55:22.510 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 22:55:22.587 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 22:55:22.588 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 77.9047ms
+2024-01-24 22:55:22.671 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 181.7757ms
+2024-01-24 22:55:26.103 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7060/User/Login - application/x-www-form-urlencoded 221
+2024-01-24 22:55:26.110 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 22:55:26.121 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NityCityWeb.Models.LoginModel) on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 22:55:26.842 +01:00 [INF] Executing RedirectResult, redirecting to /User/Profile/6.
+2024-01-24 22:55:26.842 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Login (NityCityWeb) in 720.6355ms
+2024-01-24 22:55:26.842 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 22:55:26.842 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7060/User/Login - 302 0 null 739.4042ms
+2024-01-24 22:55:26.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Profile/6 - null null
+2024-01-24 22:55:26.852 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-24 22:55:26.856 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-24 22:55:26.856 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Profile/6 - 401 0 null 11.4399ms
+2024-01-24 23:00:43.387 +01:00 [INF] User profile is available. Using 'C:\Users\Gebruiker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 23:00:43.662 +01:00 [INF] Now listening on: https://localhost:7060
+2024-01-24 23:00:43.662 +01:00 [INF] Now listening on: http://localhost:5028
+2024-01-24 23:00:43.664 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 23:00:43.665 +01:00 [INF] Hosting environment: Development
+2024-01-24 23:00:43.665 +01:00 [INF] Content root path: E:\CodingProjects\PortfolioProjects\NityCityWeb
+2024-01-24 23:00:49.620 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:00:49.897 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:00:49.938 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:00:51.299 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:00:51.482 +01:00 [INF] Executed ViewResult - view Index executed in 184.2666ms.
+2024-01-24 23:00:51.492 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/css/district.css?v=pvsZ_NXlNK7IgZRyBLUu1Rj-XF5kigg8Hxk3IRfjG0A - null null
+2024-01-24 23:00:51.496 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 1557.0332ms
+2024-01-24 23:00:51.499 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:00:51.500 +01:00 [INF] The file /css/district.css was not modified
+2024-01-24 23:00:51.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/css/district.css?v=pvsZ_NXlNK7IgZRyBLUu1Rj-XF5kigg8Hxk3IRfjG0A - 304 null text/css 9.6739ms
+2024-01-24 23:00:51.511 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 1898.5518ms
+2024-01-24 23:00:51.591 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:00:51.703 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:00:51.711 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 120.0997ms
+2024-01-24 23:00:51.755 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:00:51.817 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.8804ms
+2024-01-24 23:00:51.846 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:00:51.846 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 91.8636ms
+2024-01-24 23:00:53.359 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Login - null null
+2024-01-24 23:00:53.437 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:00:53.440 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:00:53.452 +01:00 [INF] Executing ViewResult, running view Login.
+2024-01-24 23:00:53.571 +01:00 [INF] Executed ViewResult - view Login executed in 123.1525ms.
+2024-01-24 23:00:53.571 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Login (NityCityWeb) in 131.0763ms
+2024-01-24 23:00:53.572 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:00:53.573 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Login - 200 null text/html; charset=utf-8 213.8935ms
+2024-01-24 23:00:53.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:00:53.845 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:00:53.855 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:00:53.855 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.238ms
+2024-01-24 23:00:54.009 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:00:54.009 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 154.5271ms
+2024-01-24 23:00:54.065 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 220.5578ms
+2024-01-24 23:00:58.605 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7060/User/Login - application/x-www-form-urlencoded 221
+2024-01-24 23:00:58.612 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:00:58.625 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NityCityWeb.Models.LoginModel) on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:00:59.371 +01:00 [INF] Generated JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjYiLCJuYmYiOjE3MDYxMzM2NTksImV4cCI6MTcwNjczODQ1OSwiaWF0IjoxNzA2MTMzNjU5fQ.WWNo9dhZZzruzNuCWKceaymfhsypNv5O9JxmhxEGdIk
+2024-01-24 23:00:59.371 +01:00 [INF] Setting cookie - JwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjYiLCJuYmYiOjE3MDYxMzM2NTksImV4cCI6MTcwNjczODQ1OSwiaWF0IjoxNzA2MTMzNjU5fQ.WWNo9dhZZzruzNuCWKceaymfhsypNv5O9JxmhxEGdIk
+2024-01-24 23:00:59.372 +01:00 [INF] Set JWT token in cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjYiLCJuYmYiOjE3MDYxMzM2NTksImV4cCI6MTcwNjczODQ1OSwiaWF0IjoxNzA2MTMzNjU5fQ.WWNo9dhZZzruzNuCWKceaymfhsypNv5O9JxmhxEGdIk
+2024-01-24 23:00:59.373 +01:00 [INF] Executing RedirectResult, redirecting to /User/Profile/6.
+2024-01-24 23:00:59.374 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Login (NityCityWeb) in 748.6031ms
+2024-01-24 23:00:59.374 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:00:59.374 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7060/User/Login - 302 0 null 768.9584ms
+2024-01-24 23:00:59.376 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Profile/6 - null null
+2024-01-24 23:00:59.384 +01:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-01-24 23:00:59.388 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-01-24 23:00:59.388 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Profile/6 - 401 0 null 11.7422ms
+2024-01-24 23:05:35.698 +01:00 [INF] User profile is available. Using 'C:\Users\Gebruiker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 23:05:35.928 +01:00 [INF] Now listening on: https://localhost:7060
+2024-01-24 23:05:35.928 +01:00 [INF] Now listening on: http://localhost:5028
+2024-01-24 23:05:35.930 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 23:05:35.930 +01:00 [INF] Hosting environment: Development
+2024-01-24 23:05:35.930 +01:00 [INF] Content root path: E:\CodingProjects\PortfolioProjects\NityCityWeb
+2024-01-24 23:05:37.649 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:05:38.052 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:05:38.098 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:05:39.579 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:05:39.736 +01:00 [INF] Executed ViewResult - view Index executed in 158.7596ms.
+2024-01-24 23:05:39.743 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 1644.4319ms
+2024-01-24 23:05:39.743 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/css/cyberpunk.css?v=IcTk2lSVMD-ieDTo6nTVjFNdqewQ9gfHBN0yQZ7ofeU - null null
+2024-01-24 23:05:39.744 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:05:39.755 +01:00 [INF] The file /css/cyberpunk.css was not modified
+2024-01-24 23:05:39.759 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/css/cyberpunk.css?v=IcTk2lSVMD-ieDTo6nTVjFNdqewQ9gfHBN0yQZ7ofeU - 304 null text/css 15.2755ms
+2024-01-24 23:05:39.768 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:05:39.776 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 2134.3443ms
+2024-01-24 23:05:39.780 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:05:39.780 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 11.973ms
+2024-01-24 23:05:39.993 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 213.288ms
+2024-01-24 23:05:40.021 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:05:40.119 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:05:40.120 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 99.294ms
+2024-01-24 23:05:48.693 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7060/User/Logout - application/x-www-form-urlencoded 225
+2024-01-24 23:05:48.716 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7060/User/Logout - 404 0 null 24.6219ms
+2024-01-24 23:05:48.717 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7060/User/Logout, Response status code: 404
+2024-01-24 23:05:50.015 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:05:50.026 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:05:50.026 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:05:50.069 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:05:50.107 +01:00 [INF] Executed ViewResult - view Index executed in 37.5226ms.
+2024-01-24 23:05:50.108 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 81.8036ms
+2024-01-24 23:05:50.108 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:05:50.111 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 95.6171ms
+2024-01-24 23:05:50.149 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:05:50.150 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 1.1542ms
+2024-01-24 23:05:50.365 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:05:50.372 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:05:50.372 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 7.1274ms
+2024-01-24 23:05:58.123 +01:00 [INF] User profile is available. Using 'C:\Users\Gebruiker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 23:05:58.399 +01:00 [INF] Now listening on: https://localhost:7060
+2024-01-24 23:05:58.400 +01:00 [INF] Now listening on: http://localhost:5028
+2024-01-24 23:05:58.401 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 23:05:58.402 +01:00 [INF] Hosting environment: Development
+2024-01-24 23:05:58.402 +01:00 [INF] Content root path: E:\CodingProjects\PortfolioProjects\NityCityWeb
+2024-01-24 23:05:59.770 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:06:00.100 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:06:00.140 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:06:01.742 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:06:01.901 +01:00 [INF] Executed ViewResult - view Index executed in 151.1445ms.
+2024-01-24 23:06:01.904 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 1762.4672ms
+2024-01-24 23:06:01.905 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:06:01.925 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 2167ms
+2024-01-24 23:06:01.995 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:06:01.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:06:02.005 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 10.131ms
+2024-01-24 23:06:02.237 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 241.0825ms
+2024-01-24 23:06:02.242 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:06:02.337 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:06:02.337 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 95.5294ms
+2024-01-24 23:06:11.378 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7060/User/Logout - application/x-www-form-urlencoded 225
+2024-01-24 23:06:11.393 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7060/User/Logout - 404 0 null 15.0563ms
+2024-01-24 23:06:11.393 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7060/User/Logout, Response status code: 404
+2024-01-24 23:06:24.782 +01:00 [INF] User profile is available. Using 'C:\Users\Gebruiker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 23:06:25.035 +01:00 [INF] Now listening on: https://localhost:7060
+2024-01-24 23:06:25.035 +01:00 [INF] Now listening on: http://localhost:5028
+2024-01-24 23:06:25.037 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 23:06:25.037 +01:00 [INF] Hosting environment: Development
+2024-01-24 23:06:25.037 +01:00 [INF] Content root path: E:\CodingProjects\PortfolioProjects\NityCityWeb
+2024-01-24 23:06:28.317 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:06:28.596 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:06:28.635 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:06:30.098 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:06:30.251 +01:00 [INF] Executed ViewResult - view Index executed in 147.6208ms.
+2024-01-24 23:06:30.256 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 1620.1001ms
+2024-01-24 23:06:30.257 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:06:30.278 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:06:30.279 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 1969.0691ms
+2024-01-24 23:06:30.285 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:06:30.286 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.3062ms
+2024-01-24 23:06:30.604 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 322.9877ms
+2024-01-24 23:06:30.611 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:06:30.934 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:06:30.934 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 323.4973ms
+2024-01-24 23:06:39.947 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Profile/6 - null null
+2024-01-24 23:06:39.970 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Profile (NityCityWeb)'
+2024-01-24 23:06:39.987 +01:00 [INF] Route matched with {action = "Profile", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile(System.Nullable`1[System.Int32]) on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:06:40.012 +01:00 [INF] User.Identity.Name: 6
+2024-01-24 23:06:40.227 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-01-24 23:06:40.242 +01:00 [INF] Executed ViewResult - view Profile executed in 15.0747ms.
+2024-01-24 23:06:40.242 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Profile (NityCityWeb) in 254.9761ms
+2024-01-24 23:06:40.242 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Profile (NityCityWeb)'
+2024-01-24 23:06:40.242 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Profile/6 - 200 null text/html; charset=utf-8 298.0787ms
+2024-01-24 23:06:40.304 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/NityCityWeb.styles.css?v=fnoLwTxoxUYnzuH2_iUGhuDr_XPQ9an4YWuxsxd6ezc - null null
+2024-01-24 23:06:40.305 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:06:40.398 +01:00 [INF] The file /NityCityWeb.styles.css was not modified
+2024-01-24 23:06:40.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:06:40.401 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/NityCityWeb.styles.css?v=fnoLwTxoxUYnzuH2_iUGhuDr_XPQ9an4YWuxsxd6ezc - 304 null text/css 96.8959ms
+2024-01-24 23:06:40.402 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.6895ms
+2024-01-24 23:06:40.402 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 110.2718ms
+2024-01-24 23:06:40.512 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:06:40.531 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:06:40.531 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 19.6486ms
+2024-01-24 23:38:26.814 +01:00 [INF] User profile is available. Using 'C:\Users\Gebruiker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-24 23:38:27.411 +01:00 [INF] Now listening on: https://localhost:7060
+2024-01-24 23:38:27.411 +01:00 [INF] Now listening on: http://localhost:5028
+2024-01-24 23:38:27.413 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-24 23:38:27.413 +01:00 [INF] Hosting environment: Development
+2024-01-24 23:38:27.413 +01:00 [INF] Content root path: E:\CodingProjects\PortfolioProjects\NityCityWeb
+2024-01-24 23:38:31.025 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:38:32.539 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:38:32.582 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:38:35.748 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:38:36.122 +01:00 [INF] Executed ViewResult - view Index executed in 370.377ms.
+2024-01-24 23:38:36.132 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 3546.1868ms
+2024-01-24 23:38:36.133 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:38:36.153 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/NityCityWeb.styles.css?v=fnoLwTxoxUYnzuH2_iUGhuDr_XPQ9an4YWuxsxd6ezc - null null
+2024-01-24 23:38:36.154 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/css/cyberpunk.css?v=IcTk2lSVMD-ieDTo6nTVjFNdqewQ9gfHBN0yQZ7ofeU - null null
+2024-01-24 23:38:36.154 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/css/district.css?v=pvsZ_NXlNK7IgZRyBLUu1Rj-XF5kigg8Hxk3IRfjG0A - null null
+2024-01-24 23:38:36.160 +01:00 [INF] The file /css/cyberpunk.css was not modified
+2024-01-24 23:38:36.160 +01:00 [INF] The file /css/district.css was not modified
+2024-01-24 23:38:36.161 +01:00 [INF] The file /NityCityWeb.styles.css was not modified
+2024-01-24 23:38:36.162 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/css/district.css?v=pvsZ_NXlNK7IgZRyBLUu1Rj-XF5kigg8Hxk3IRfjG0A - 304 null text/css 6.8564ms
+2024-01-24 23:38:36.162 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/css/cyberpunk.css?v=IcTk2lSVMD-ieDTo6nTVjFNdqewQ9gfHBN0yQZ7ofeU - 304 null text/css 7.1082ms
+2024-01-24 23:38:36.163 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/NityCityWeb.styles.css?v=fnoLwTxoxUYnzuH2_iUGhuDr_XPQ9an4YWuxsxd6ezc - 304 null text/css 9.4189ms
+2024-01-24 23:38:36.163 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 5142.5121ms
+2024-01-24 23:38:36.166 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:38:36.170 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:38:36.175 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.7002ms
+2024-01-24 23:38:36.276 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.1783ms
+2024-01-24 23:38:36.459 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:38:36.537 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:38:36.537 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 78.5075ms
+2024-01-24 23:38:38.263 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7060/User/Logout - application/x-www-form-urlencoded 225
+2024-01-24 23:38:38.275 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Logout (NityCityWeb)'
+2024-01-24 23:38:38.279 +01:00 [INF] Route matched with {action = "Logout", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Logout() on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:38:38.303 +01:00 [INF] Executing RedirectResult, redirecting to /.
+2024-01-24 23:38:38.303 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Logout (NityCityWeb) in 23.8414ms
+2024-01-24 23:38:38.303 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Logout (NityCityWeb)'
+2024-01-24 23:38:38.303 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7060/User/Logout - 302 0 null 40.5253ms
+2024-01-24 23:38:38.311 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/ - null null
+2024-01-24 23:38:38.316 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:38:38.316 +01:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NityCityWeb.Controllers.HomeController (NityCityWeb).
+2024-01-24 23:38:38.351 +01:00 [INF] Executing ViewResult, running view Index.
+2024-01-24 23:38:38.360 +01:00 [INF] Executed ViewResult - view Index executed in 9.0525ms.
+2024-01-24 23:38:38.360 +01:00 [INF] Executed action NityCityWeb.Controllers.HomeController.Index (NityCityWeb) in 43.8782ms
+2024-01-24 23:38:38.361 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.HomeController.Index (NityCityWeb)'
+2024-01-24 23:38:38.401 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/ - 200 null text/html; charset=utf-8 90.7731ms
+2024-01-24 23:38:38.635 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:38:38.699 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 61.0112ms
+2024-01-24 23:38:38.699 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:38:38.707 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:38:38.763 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:38:38.763 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 56.277ms
+2024-01-24 23:38:38.816 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.1529ms
+2024-01-24 23:38:39.784 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Login - null null
+2024-01-24 23:38:39.803 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:38:39.805 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:38:39.809 +01:00 [INF] Executing ViewResult, running view Login.
+2024-01-24 23:38:40.153 +01:00 [INF] Executed ViewResult - view Login executed in 347.5201ms.
+2024-01-24 23:38:40.241 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Login (NityCityWeb) in 436.1789ms
+2024-01-24 23:38:40.241 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:38:40.242 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Login - 200 null text/html; charset=utf-8 458.5253ms
+2024-01-24 23:38:40.282 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:38:40.282 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:38:40.283 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:38:40.287 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 4.0252ms
+2024-01-24 23:38:40.317 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:38:40.317 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 35.139ms
+2024-01-24 23:38:40.454 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.7164ms
+2024-01-24 23:38:44.194 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7060/User/Login - application/x-www-form-urlencoded 221
+2024-01-24 23:38:44.197 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:38:44.208 +01:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(NityCityWeb.Models.LoginModel) on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:38:45.028 +01:00 [INF] Generated JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjYiLCJuYmYiOjE3MDYxMzU5MjUsImV4cCI6MTcwNjc0MDcyNSwiaWF0IjoxNzA2MTM1OTI1fQ.E0bWFxu_vcZyZbpd7vSMv1JqoEP6Yc480lGievWvhRk
+2024-01-24 23:38:45.029 +01:00 [INF] Setting cookie - JwtToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjYiLCJuYmYiOjE3MDYxMzU5MjUsImV4cCI6MTcwNjc0MDcyNSwiaWF0IjoxNzA2MTM1OTI1fQ.E0bWFxu_vcZyZbpd7vSMv1JqoEP6Yc480lGievWvhRk
+2024-01-24 23:38:45.029 +01:00 [INF] Set JWT token in cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjYiLCJuYmYiOjE3MDYxMzU5MjUsImV4cCI6MTcwNjc0MDcyNSwiaWF0IjoxNzA2MTM1OTI1fQ.E0bWFxu_vcZyZbpd7vSMv1JqoEP6Yc480lGievWvhRk
+2024-01-24 23:38:45.029 +01:00 [INF] Executing RedirectResult, redirecting to /User/Profile/6.
+2024-01-24 23:38:45.029 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Login (NityCityWeb) in 821.2533ms
+2024-01-24 23:38:45.029 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Login (NityCityWeb)'
+2024-01-24 23:38:45.030 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7060/User/Login - 302 0 null 836.0018ms
+2024-01-24 23:38:45.032 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/User/Profile/6 - null null
+2024-01-24 23:38:45.039 +01:00 [INF] Executing endpoint 'NityCityWeb.Controllers.UserController.Profile (NityCityWeb)'
+2024-01-24 23:38:45.042 +01:00 [INF] Route matched with {action = "Profile", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Profile(System.Nullable`1[System.Int32]) on controller NityCityWeb.Controllers.UserController (NityCityWeb).
+2024-01-24 23:38:45.044 +01:00 [INF] User.Identity.Name: 6
+2024-01-24 23:38:45.059 +01:00 [INF] Executing ViewResult, running view Profile.
+2024-01-24 23:38:45.065 +01:00 [INF] Executed ViewResult - view Profile executed in 6.763ms.
+2024-01-24 23:38:45.065 +01:00 [INF] Executed action NityCityWeb.Controllers.UserController.Profile (NityCityWeb) in 23.3118ms
+2024-01-24 23:38:45.065 +01:00 [INF] Executed endpoint 'NityCityWeb.Controllers.UserController.Profile (NityCityWeb)'
+2024-01-24 23:38:45.065 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/User/Profile/6 - 200 null text/html; charset=utf-8 33.5514ms
+2024-01-24 23:38:45.074 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-24 23:38:45.080 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.8259ms
+2024-01-24 23:38:45.085 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - null null
+2024-01-24 23:38:45.113 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2024-01-24 23:38:45.155 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'E:\CodingProjects\PortfolioProjects\NityCityWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map'
+2024-01-24 23:38:45.155 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 327261 text/plain 42.6775ms
+2024-01-24 23:38:45.167 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.185ms

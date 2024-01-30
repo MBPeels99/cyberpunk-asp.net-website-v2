@@ -1,0 +1,121 @@
+﻿@{
+    var isLoggedIn = User.Identity.IsAuthenticated; // Check if the user is logged in
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NityCityWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NityCityWeb.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 ">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NityCityWeb</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <!-- Add more menu items as needed -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="District" asp-action="Index">Districts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About Night City</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="bookingButton" class="btn">Book a Holiday</button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <!-- Add containers for visitors, logged-in users, and employees -->
+                    <div class="navbar-nav">
+                        @if (!isLoggedIn)
+                        {
+                            <!-- For Visitors -->
+                            <div class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Login">Log in</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Create">Sign Up</a>
+                            </div>
+                        }
+
+                        @if (isLoggedIn)
+                        {
+                            <!-- For Logged-In Users -->
+                            <div class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Profile" asp-route-id="@User.Identity.Name">View Dashboard</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="SomeController" asp-action="UserFeature2">User Feature 2</a>
+                            </div>
+                            <!-- Add a logout button -->
+                            <form asp-area="" asp-controller="User" asp-action="Logout" method="post" class="form-inline">
+                                <button type="submit" class="nav-link btn btn-link text-dark">Log out</button>
+                            </form>
+                        }
+
+                        <!-- For Employees -->
+                        <!--div class="nav-item">
+                            <a class="nav-link text-dark" href="#">Employee Feature 1</a>
+                        </div>
+                        <div-- class="nav-item">
+                            <a class="nav-link text-dark" href="#">Employee Feature 2</a>
+                        </div-->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - NityCityWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var bookingButton = document.getElementById('bookingButton');
+            var isLoggedIn = @Html.Raw(Json.Serialize(isLoggedIn)); // Serialize the Razor variable to JSON for use in JavaScript
+
+            bookingButton.addEventListener('click', function (e) {
+                e.preventDefault();
+                if (!isLoggedIn) {
+                    // Show custom dialog
+                    if (confirm("You need to be logged in to make a booking. Do you want to log in now?")) {
+                        window.location.href = '@Url.Action("Login", "User")'; // Redirect to login page
+                    }
+                } else {
+                    window.location.href = '@Url.Action("Create", "Booking")'; // Redirect to booking creation page
+                }
+            });
+        });
+    </script>
+</body>
+</html>

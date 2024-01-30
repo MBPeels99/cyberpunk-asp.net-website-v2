@@ -1,0 +1,226 @@
+﻿/* Common styles for all screen sizes */
+body{
+    background-color: yellow;
+}
+
+.district {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    /*align-items: center; /* Center vertically */
+}
+
+.left-content {
+    flex: 1; /* Let the image take remaining width */
+    padding: 10px; /* Add padding around the image */
+    text-align: center; /* Center the image horizontally */
+}
+
+.image-container {
+    text-align: center; /* Center the image and heading horizontally */
+}
+
+    .image-container img {
+        max-width: 100%; /* Set maximum width to 100% of the container */
+        height: 300px; /* Maintain aspect ratio */
+    }
+
+.right-content {
+    flex: 2; /* Let the text take twice the width of the image */
+    padding-right: 10%;
+}
+
+.collapsed-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines you want to show */
+    -webkit-box-orient: vertical;
+}
+
+.read-more-button {
+    display: none; /* Hide the button by default */
+}
+
+/* Responsive layout for screens wider than a certain width (e.g., 768px) */
+@media (min-width: 1100px) {
+    .district {
+        flex-direction: row; /* Arrange items side by side */
+        align-items: flex-start; /* Align items to the start (top) */
+        text-align: left; /* Align text to the left */
+    }
+
+    .left-content, .right-content {
+        /*flex: 1; /* Let the image take half the width on wide screens */
+        padding: 10px; /* Add padding around the image */
+        text-align: center; /* Center the image horizontally */
+    }
+
+    .image-container {
+        text-align: left; /* Align the image and heading to the left */
+    }
+
+    .collapsed-text {
+        /* Remove restrictions on smaller screens */
+        display: block;
+        max-height: none;
+        overflow: visible;
+        text-overflow: clip;
+        -webkit-line-clamp: none;
+    }
+
+    /* Hide the Read More button on larger screens */
+    .read-more-button {
+        display: none;
+    }
+
+}
+
+/* Make the Read More button visible on smaller screens */
+@media (max-width: 1099px) {
+    .read-more-button {
+        display: block; /* Show the button on smaller screens */
+    }
+}
+
+.district-bg {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust as needed */
+}
+
+.district-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
+}
+
+.district-content {
+    position: relative;
+    z-index: 2; /* Ensures content is above the overlay */
+    /* Other styling as needed */
+}
+
+.arrow-button {
+    position: fixed; /* Fixed positioning relative to the viewport */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust position to truly center */
+    z-index: 100; /* Ensure it's above other content */
+    font-size: 24px; /* Size of the arrow */
+    color: #fff; /* Arrow color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px; /* Padding around the arrow */
+    text-align: center; /* Center the arrow icon/text */
+    text-decoration: none; /* Remove underline from <a> element */
+    border-radius: 50%; /* Circular button */
+}
+
+.left-arrow {
+    left: 10px; /* Distance from the left side of the viewport */
+}
+
+.right-arrow {
+    right: 10px; /* Distance from the right side of the viewport */
+}
+
+/* Home Index - District layout */
+.districts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px; /* Space between grid items */
+    padding: 20px; /* Padding around the grid */
+    margin-top: 20px; /* Space after the hero section */
+}
+
+.district-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+    height: 300px; /* Adjust as needed */
+}
+
+    .district-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 0.3s ease; /* Smooth transition for fading out the image */
+    }
+
+.district-name-overlay {
+    position: absolute;
+    top: 0; /* Adjusted from bottom to top */
+    left: 0;
+    right: 0;
+    height: 100%; /* Full height to align it vertically center */
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Align items vertically center */
+    justify-content: center; /* Align items horizontally center (optional) */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for the name */
+}
+
+.district-info {
+    position: absolute;
+    top: 0; /* Overlay covers the whole item */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8); /* Dark background for text */
+    opacity: 0; /* Initially transparent */
+    transition: opacity 0.3s ease; /* Smooth transition for revealing the info */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px; /* Match the border-radius of .district-item */
+}
+
+.district-item:hover .district-info {
+    opacity: 1; /* Show the info on hover */
+}
+
+.district-item:hover .district-name-overlay {
+    opacity: 0; /* Hide the Name of district on hover */
+}
+
+.district-item:hover img {
+    opacity: 0.3; /* Dim the image on hover */
+}
+
+.district-name {
+    color: white;
+    font-size: 1.5rem; /* Adjust the font size as necessary */
+    margin-bottom: 0; /* Remove margin if not necessary */
+    background: rgba(0, 0, 0, 0.7); /* Optional: Additional background for the text for readability */
+    padding: 5px 10px; /* Padding for the text */
+    border-radius: 5px; /* Optional: Rounded corners for the text background */
+}
+
+.district-name, .district-rating, .district-short-description {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.cyber-button {
+    text-decoration: none; /* Remove underline from links styled as buttons */
+    margin-top: 1rem; /* Space above the button */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .districts-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .districts-grid {
+        grid-template-columns: 1fr; /* 1 item per row on very small screens */
+    }
+}

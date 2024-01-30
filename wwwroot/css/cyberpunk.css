@@ -1,0 +1,37 @@
+﻿/* Skyline image css */
+.hero-bg {
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Darken the background image */
+}
+
+.hero-content {
+    padding: 50px; /* Space around the text */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0 auto; /* Center the content block */
+    max-width: 800px; /* Maximum width of the content block */
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 20px; /* Less padding on smaller screens */
+    }
+}
+
+body{
+    background-color: yellow;
+}
+
+.responsive-video {
+    width: 100%; /* Make the video responsive by limiting its maximum width */
+    height: auto; /* Adjust height automatically */
+    aspect-ratio: 16 / 9;
+}

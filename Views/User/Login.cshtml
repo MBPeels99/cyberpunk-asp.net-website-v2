@@ -1,0 +1,39 @@
+﻿@model NityCityWeb.Models.LoginModel
+
+@{
+    ViewData["Title"] = "User Login";
+}
+<!-- CSS Stylesheets-->
+<link rel="stylesheet" href="~/css/cyberpunk-css-main/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/user.css" asp-append-version="true" />
+
+<h2 class="cyber-h fg-black oxanium-font">Login</h2>
+
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <!-- Email -->
+    <div class="form-group">
+        <label asp-for="Email" class="control-label oxanium-font">Email: </label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <!-- Password -->
+    <div class="form-group">
+        <label asp-for="Password" class="control-label oxanium-font">Password: </label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <br />
+    <div class="form-group">
+        <input type="submit" value="Login" class="btn btn-primary oxanium-font" />
+    </div>
+</form>
+<br />
+<div class="register-link">
+    <p class="oxanium-font">Don't have an account yet?</p>
+    <a href="@Url.Action("Create", "User")" class="btn btn-info oxanium-font">Sign up here</a>
+</div>
+

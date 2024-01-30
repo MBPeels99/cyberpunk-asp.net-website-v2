@@ -1,0 +1,75 @@
+﻿@model NityCityWeb.Models.User
+
+@{
+    ViewData["Title"] = "Create User";
+}
+
+<!-- CSS Stylesheets-->
+<link rel="stylesheet" href="~/css/cyberpunk-css-main/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/user.css" asp-append-version="true" />
+<h2 class="cyber-h fg-black oxanium-font">Create User</h2>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+
+        <!-- Full Name -->
+        <label asp-for="FullName" class="control-label oxanium-font">Full Name:</label>
+        <input asp-for="FullName" class="form-control" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+
+        <!-- Email -->
+        <label asp-for="Email" class="control-label oxanium-font">Email:</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+
+        <!-- Phone Number -->
+        <label asp-for="PhoneNumber" class="control-label oxanium-font">Phone Number:</label>
+        <input asp-for="PhoneNumber" class="form-control" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+        <!-- Country -->
+        <label asp-for="Country" class="control-label oxanium-font">Country:</label>
+        <input asp-for="Country" class="form-control" />
+        <span asp-validation-for="Country" class="text-danger"></span>
+
+        <!-- Date of Birth -->
+        <label asp-for="DateOfBirth" class="control-label oxanium-font">Date Of Birth:</label>
+        <input asp-for="DateOfBirth" type="date" class="form-control" />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+
+        <!-- Password -->
+        <label asp-for="Password" class="control-label oxanium-font">Password:</label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+
+        <!-- Confirm Password -->
+        <label for="confirmPassword" class="control-label oxanium-font">Confirm Password:</label>
+        <input id="confirmPassword" name="confirmPassword" type="password" class="form-control" />
+        <span id="confirmPasswordError" class="text-danger"></span>
+    </div>
+
+    <br/>
+    <!-- Submit Button -->
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary oxanium-font" />
+    </div>
+</form>
+<br/>
+<div class="register-link">
+    <p class="oxanium-font">Do have an account already?</p>
+    <a href="@Url.Action("Login", "User")" class="btn btn-info oxanium-font">Sign up here</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<script src="~/js/_ValidationScriptsPartialSignUp.js" asp-append-version="true"></script>
+

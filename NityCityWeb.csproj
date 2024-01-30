@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Pictures\Ads_gifs\3834df0dd879cbca534a719e9e5fe63f.gif" />
+    <None Include="wwwroot\Pictures\Ads_gifs\Austin-Dragon-Liquid-Cool.gif" />
+    <None Include="wwwroot\Pictures\Ads_gifs\DysthomeGroup.gif" />
+    <None Include="wwwroot\Pictures\CityCenter.jpg" />
+    <None Include="wwwroot\Pictures\District\Heywood\Heywood_Image_Back.jpg" />
+    <None Include="wwwroot\Pictures\District\Heywood\Heywood_Image_Map.jpg" />
+    <None Include="wwwroot\Pictures\District\Heywood\Heywood_Image_One.jpg" />
+    <None Include="wwwroot\Pictures\District\Heywood\Heywood_Image_Two.jpg" />
+    <None Include="wwwroot\Pictures\District\Pacifica\Pacifica_Image_Back.jpg" />
+    <None Include="wwwroot\Pictures\District\Pacifica\Pacifica_Image_Map.jpg" />
+    <None Include="wwwroot\Pictures\District\Pacifica\Pacifica_Image_One.jpg" />
+    <None Include="wwwroot\Pictures\District\Pacifica\Pacifica_Image_Two.jpg" />
+    <None Include="wwwroot\Pictures\District\Santo Domingo\SantoDomingo_Image_Back.jpg" />
+    <None Include="wwwroot\Pictures\District\Santo Domingo\SantoDomingo_Image_Map.jpg" />
+    <None Include="wwwroot\Pictures\District\Santo Domingo\SantoDomingo_Image_One.jpg" />
+    <None Include="wwwroot\Pictures\District\Santo Domingo\SantoDomingo_Image_Two.jpg" />
+    <None Include="wwwroot\Pictures\District\The Badlands\TheBadlands_Image_Back.jpg" />
+    <None Include="wwwroot\Pictures\District\The Badlands\TheBadlands_Image_Map.jpg" />
+    <None Include="wwwroot\Pictures\District\The Badlands\TheBadlands_Image_One.jpg" />
+    <None Include="wwwroot\Pictures\District\The Badlands\TheBadlands_Image_Two.jpg" />
+    <None Include="wwwroot\Pictures\District\Watson\Watson_Back_Image.jpg" />
+    <None Include="wwwroot\Pictures\District\Watson\Watson_Image_Map.jpg" />
+    <None Include="wwwroot\Pictures\District\Watson\Watson_Image_One.jpg" />
+    <None Include="wwwroot\Pictures\District\Watson\Watson_Image_Two.jpg" />
+    <None Include="wwwroot\Pictures\Figures\Johnny Silverhand\Johnny Silverhand.png" />
+    <None Include="wwwroot\Pictures\Heywood.jpg" />
+    <None Include="wwwroot\Pictures\NC_Logo_All.jpg" />
+    <None Include="wwwroot\Pictures\NC_Logo_Black_BG.PNG" />
+    <None Include="wwwroot\Pictures\Pacifica.jpg" />
+    <None Include="wwwroot\Pictures\SantoDomingo.jpg" />
+    <None Include="wwwroot\Pictures\Watson.jpg" />
+    <None Include="wwwroot\Pictures\Westbrook.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.2.0" />
+  </ItemGroup>
+
+</Project>

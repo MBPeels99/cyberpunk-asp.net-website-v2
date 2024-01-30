@@ -1,0 +1,71 @@
+﻿@model IEnumerable<NityCityWeb.Models.District>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!-- CSS Stylesheets-->
+<link rel="stylesheet" href="~/css/cyberpunk-css-main/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/cyberpunk.css" asp-append-version="true">
+<link rel="stylesheet" href="~/css/district.css" asp-append-version="true">
+
+<!-- Hero Section -->
+<div class="hero-section">
+    <!-- Background Image -->
+    <div class="hero-bg" style="background-image: url('/Pictures/cyberpunk_night_city.jpg'); background-size: cover; background-position: center;">
+        <!-- Overlay -->
+        <div class="hero-overlay" style="background-color: rgba(0, 0, 0, 0.5);"></div>
+        <!-- Content -->
+        <div class="hero-content text-center" style="padding: 50px; background-color: rgba(0, 0, 0, 0.7); border-radius: 10px;">
+            <h1 class="display-4 cyber-h fg-white oxanium-font">Explore the Wonders of Night City</h1>
+        </div>
+    </div>
+    <p class="cyberpunk-text fg-black oxanium-font">Welcome to NityCityWeb, your gateway to the futuristic city of Night City. Discover its districts, culture, and more.</p>
+
+    <div class="introductory">
+        <div class="basic-info">
+            <p class="fg-black oxanium-font">
+                Whether it’s your first time in Night City or you’ve lived here since the Kress administration,
+                this site has you covered. Get out and explore with our curated selection of the city’s top highlights.
+                Impress your friends with nuggets of trivia from our historical overviews of the city and its districts.
+                Navigate NCART like a pro with our TL;DR overview. Hit only the hip parts of Heywood and dodge the gangs
+                with safety tips straight from the NCPD. Whatever your Night City dream is, with this site to guide you,
+                it’s sure to come true.
+            </p>
+            <div class="yt-video-cyberpunk-trailer">
+                <iframe src="https://www.youtube.com/embed/gt943-HQzGc" title="Good morning, Night City! - Cyberpunk 2077 Intro" frameborder="0" allow="autoplay;" allowfullscreen class="responsive-video"></iframe>
+            </div>
+            <h2 class="cyber-h fg-black oxanium-font">History of Night City</h2>
+            <p class="fg-black oxanium-font">Night City is a vibrant and sprawling metropolis located on the west coast of the United States in the state of California. It was founded as a small coastal town and rapidly transformed into a hub of technological advancement and cultural diversity. Throughout its history, Night City has been shaped by powerful mega-corporations, organized crime syndicates, and social inequality.</p>
+            <p class="fg-black oxanium-font">Night City experienced a major technological boom, leading to the rise of cybernetic augmentations, artificial intelligence, and a hyper-connected network. The city is a beacon of opportunity and excess, attracting individuals from all walks of life.</p>
+            <br />
+        </div>
+        
+    </div>
+    
+    <div class="text-center">
+        
+        <a href="@Url.Action("Index", "District")" class="cyber-button bg-red fg-white">Explore Districts
+            <span class="glitchtext">Districts</span>
+        </a>
+    </div>
+    <!-- Districts Grid Section -->
+    <div class="districts-grid">
+        @foreach (var district in Model)
+        {
+            <div class="district-item">
+                <img src="@Url.Content($"~/Pictures/District/{Uri.EscapeDataString(district.DistrictName)}/{Uri.EscapeDataString(district.ImageOne)}")" alt="@district.DistrictName" class="district-image">
+                <div class="district-name-overlay">
+                    <span class="district-name oxanium-font">@district.DistrictName</span>
+                </div>
+                <div class="district-info">
+                    <h3 class="district-name oxanium-font">@district.DistrictName</h3>
+                    <p class="district-rating oxanium-font">Rating: @district.AverageRating</p>
+                    <p class="district-short-description oxanium-font">@district.ShortDescription</p>
+                    <a href="@Url.Action("Details", "District", new { id = district.DistrictId })" class="cyber-button-small bg-red fg-white">Visit Now</a>
+                </div>
+            </div>
+        }
+    </div>
+
+</div>
+
+
